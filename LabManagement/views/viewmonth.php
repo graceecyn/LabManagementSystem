@@ -27,7 +27,7 @@
 							<svg class="glyph stroked eye">
 								<use xlink:href="#stroked-eye"/>
 							</svg>
-							Reservations
+							Reservasi
 						</a>
 					</li>
 
@@ -37,7 +37,7 @@
 							<svg class="glyph stroked plus sign">
 								<use xlink:href="#stroked-plus-sign"/>
 							</svg>
-							New
+							Baru
 						</a>
 					</li>
 					<li>
@@ -45,7 +45,7 @@
 							<svg class="glyph stroked download">
 								<use xlink:href="#stroked-download"/>
 							</svg>
-							Borrowed Items
+							Barang Dipinjam
 						</a>
 					</li>
 					<li>
@@ -64,7 +64,7 @@
 					<svg class="glyph stroked desktop">
 						<use xlink:href="#stroked-desktop"/>
 					</svg>
-					Item
+					Barang
 				</a>
 			</li>
 			<li>
@@ -72,7 +72,7 @@
 					<svg class="glyph stroked male user ">
 						<use xlink:href="#stroked-male-user"/>
 					</svg>
-					Borrower
+					Peminjam
 				</a>
 			</li>
 			<li>
@@ -80,7 +80,7 @@
 					<svg class="glyph stroked app-window">
 						<use xlink:href="#stroked-app-window"></use>
 					</svg>
-					Room
+					Ruangan
 				</a>
 			</li>
 			<li class="active">
@@ -88,7 +88,7 @@
 					<svg class="glyph stroked clipboard with paper">
 						<use xlink:href="#stroked-clipboard-with-paper"/>
 					</svg>
-					Inventory
+					Inventaris
 				</a>
 			</li>
 			<li>
@@ -96,7 +96,7 @@
 					<svg class="glyph stroked line-graph">
 						<use xlink:href="#stroked-line-graph"/>
 					</svg>
-					Reports
+					Laporan
 				</a>
 			</li>
 			<li>
@@ -104,7 +104,7 @@
 					<svg class="glyph stroked female user">
 						<use xlink:href="#stroked-female-user"/>
 					</svg>
-					Users
+					Pengguna
 				</a>
 			</li>
 			<?php
@@ -120,19 +120,19 @@
 		<div class="row">
 			<ol class="breadcrumb">
 				<li><a href="dashboard"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
-				<li class="active">Inventory</li>
+				<li class="active">Inventaris</li>
 			</ol>
 			<div class="breadcrumb">
 				<div class="row">
 					<div class="col-md-12">
 						<ul class="nav nav-pills">
-							<li class="active"><a href="#new" data-toggle="tab"><i class="fa fa-list"></i>&nbsp;&nbsp;New</a></li>
-							<li><a href="#old" data-toggle="tab"><i class="fa fa-question"></i>&nbsp;&nbsp;Old</a></li>
-							<li><a href="#lost" data-toggle="tab"><i class="fa fa-question"></i>&nbsp;&nbsp;Lost</a></li>
-							<li><a href="#damaged" data-toggle="tab"><i class="fa fa-file-code-o"></i>&nbsp;&nbsp;Damaged</a></li>
-							<li><a href="#pulledout" data-toggle="tab"><i class="fa fa-chevron-circle-right"></i>&nbsp;&nbsp;Total Items</a></li>
-							<li><a href="#transferred" data-toggle="tab"><i class="fa fa-chevron-circle-right"></i>&nbsp;&nbsp;Transferred</a></li>
-							<li><a href="#report2" data-toggle="tab"><i class="fa fa-chevron-circle-right"></i>&nbsp;&nbsp;Borrowed</a></li>
+							<li class="active"><a href="#new" data-toggle="tab"><i class="fa fa-list"></i>&nbsp;&nbsp;Baru</a></li>
+							<li><a href="#old" data-toggle="tab"><i class="fa fa-question"></i>&nbsp;&nbsp;Lama</a></li>
+							<li><a href="#lost" data-toggle="tab"><i class="fa fa-question"></i>&nbsp;&nbsp;Hilang</a></li>
+							<li><a href="#damaged" data-toggle="tab"><i class="fa fa-file-code-o"></i>&nbsp;&nbsp;Rusak</a></li>
+							<li><a href="#pulledout" data-toggle="tab"><i class="fa fa-chevron-circle-right"></i>&nbsp;&nbsp;Total Barang</a></li>
+							<li><a href="#transferred" data-toggle="tab"><i class="fa fa-chevron-circle-right"></i>&nbsp;&nbsp;Dipindahkan</a></li>
+							<li><a href="#report2" date-toggle="tab"><i class="fa fa-chevron-circle-right"></i>&nbsp;&nbsp;Dipinjam</a></li>
 						</ul>
 					</div>
 					<!-- <div class="col-md-2">
@@ -158,10 +158,10 @@
 									<thead>
 										<tr>
 											<th>Model</th>
-											<th>Category</th>
-											<th>Brand</th>
-											<th>No. of items</th>
-											<th>No. of items left</th>
+											<th>Kategori</th>
+											<th>Merek</th>
+											<th>Jml. barang</th>
+											<th>Jml. barang tersisa</th>
 										</tr>
 									</thead>
 								</table>
@@ -171,9 +171,9 @@
 									<thead>
 										<tr>
 											<th>Model</th>
-											<th>Category</th>
-											<th>Brand</th>
-											<th>No. of items</th>
+											<th>Kategori</th>
+											<th>Merek</th>
+											<th>Jml. barang</th>
 											<th>Remarks</th>
 										</tr>
 									</thead>

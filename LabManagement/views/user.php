@@ -23,7 +23,7 @@ include 'header.php';
 						<use xlink:href="#stroked-chevron-down"></use>
 					</svg>
 				</span>
-				Transaction 
+				Transaksi
 			</a>
 			<ul class="children collapse" id="sub-item-1">
 				<li>
@@ -31,7 +31,7 @@ include 'header.php';
 						<svg class="glyph stroked eye">
 							<use xlink:href="#stroked-eye"/>
 						</svg>
-						Reservations
+						Pemesanan
 					</a>
 				</li>
 				<li>
@@ -39,7 +39,7 @@ include 'header.php';
 						<svg class="glyph stroked plus sign">
 							<use xlink:href="#stroked-plus-sign"/>
 						</svg>
-						New
+						Baru
 					</a>
 				</li>
 				<li>
@@ -47,7 +47,7 @@ include 'header.php';
 						<svg class="glyph stroked download">
 							<use xlink:href="#stroked-download"/>
 						</svg>
-						Borrowed Items
+						Barang Dipinjam
 					</a>
 				</li>
 				<li>
@@ -55,7 +55,7 @@ include 'header.php';
 						<svg class="glyph stroked checkmark">
 							<use xlink:href="#stroked-checkmark"/>
 						</svg>
-						Returned Items
+						Barang Dikembalikan
 					</a>
 				</li>
 			</ul>
@@ -66,7 +66,7 @@ include 'header.php';
 				<svg class="glyph stroked desktop">
 					<use xlink:href="#stroked-desktop"/>
 				</svg>
-				Item
+				Barang
 			</a>
 		</li>
 		<li>
@@ -74,7 +74,7 @@ include 'header.php';
 				<svg class="glyph stroked male user ">
 					<use xlink:href="#stroked-male-user"/>
 				</svg>
-				Borrower
+				Peminjam
 			</a>
 		</li>
 		<li>
@@ -82,7 +82,7 @@ include 'header.php';
 				<svg class="glyph stroked app-window">
 					<use xlink:href="#stroked-app-window"></use>
 				</svg>
-				Room
+				Ruangan
 			</a>
 		</li>
 		<li>
@@ -90,7 +90,7 @@ include 'header.php';
 				<svg class="glyph stroked clipboard with paper">
 					<use xlink:href="#stroked-clipboard-with-paper"/>
 				</svg>
-				Inventory
+				Inventaris
 			</a>
 		</li>
 		<li>
@@ -98,7 +98,7 @@ include 'header.php';
 				<svg class="glyph stroked line-graph">
 					<use xlink:href="#stroked-line-graph"/>
 				</svg>
-				Reports
+				Laporan
 			</a>
 		</li>
 		<li class="active">
@@ -106,7 +106,7 @@ include 'header.php';
 				<svg class="glyph stroked female user">
 					<use xlink:href="#stroked-female-user"/>
 				</svg>
-				Users
+				Pengguna
 			</a>
 		</li>
 		<?php 
@@ -121,7 +121,7 @@ include 'header.php';
 	<div class="row">
 		<ol class="breadcrumb">
 			<li><a href="dashboard"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
-			<li class="active">Users</li>
+			<li class="active">Pengguna</li>
 		</ol>
 		<div class="breadcrumb">
 			<button class="btn btn-primary col-sm-offset-10 add_user">
