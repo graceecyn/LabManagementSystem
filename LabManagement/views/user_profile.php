@@ -23,7 +23,7 @@ include 'header.php';
 						<use xlink:href="#stroked-chevron-down"></use>
 					</svg>
 				</span>
-				Transaction 
+				Transaksi
 			</a>
 			<ul class="children collapse" id="sub-item-1">
 				<li>
@@ -31,7 +31,7 @@ include 'header.php';
 						<svg class="glyph stroked eye">
 							<use xlink:href="#stroked-eye"/>
 						</svg>
-						Reservations
+						Reservasi
 					</a>
 				</li>
 				<li>
@@ -39,7 +39,7 @@ include 'header.php';
 						<svg class="glyph stroked plus sign">
 							<use xlink:href="#stroked-plus-sign"/>
 						</svg>
-						New
+						Baru
 					</a>
 				</li>
 				<li>
@@ -47,7 +47,7 @@ include 'header.php';
 						<svg class="glyph stroked download">
 							<use xlink:href="#stroked-download"/>
 						</svg>
-						Borrowed Items
+						Barang Dipinjam
 					</a>
 				</li>
 				<li>
@@ -55,7 +55,7 @@ include 'header.php';
 						<svg class="glyph stroked checkmark">
 							<use xlink:href="#stroked-checkmark"/>
 						</svg>
-						Returned Items
+						Barang Dikembalikan
 					</a>
 				</li>
 			</ul>
@@ -66,7 +66,7 @@ include 'header.php';
 				<svg class="glyph stroked desktop">
 					<use xlink:href="#stroked-desktop"/>
 				</svg>
-				Item
+				Barang
 			</a>
 		</li>
 		<li>
@@ -74,7 +74,7 @@ include 'header.php';
 				<svg class="glyph stroked male user ">
 					<use xlink:href="#stroked-male-user"/>
 				</svg>
-				Borrower
+				Peminjam
 			</a>
 		</li>
 		<li>
@@ -82,7 +82,7 @@ include 'header.php';
 				<svg class="glyph stroked app-window">
 					<use xlink:href="#stroked-app-window"></use>
 				</svg>
-				Room
+				Ruangan
 			</a>
 		</li>
 		<li>
@@ -90,7 +90,7 @@ include 'header.php';
 				<svg class="glyph stroked clipboard with paper">
 					<use xlink:href="#stroked-clipboard-with-paper"/>
 				</svg>
-				Inventory
+				Inventaris
 			</a>
 		</li>
 		<li>
@@ -106,7 +106,7 @@ include 'header.php';
 				<svg class="glyph stroked female user">
 					<use xlink:href="#stroked-female-user"/>
 				</svg>
-				User
+				Pengguna
 			</a>
 		</li>
 		<?php 
@@ -121,7 +121,7 @@ include 'header.php';
 	<div class="row">
 		<ol class="breadcrumb">
 			<li><a href="dashboard"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
-			<li class="active">User Profile</li>
+			<li class="active">Profil Pengguna</li>
 		</ol>
 		<div class="breadcrumb">
 		</div>
@@ -134,15 +134,15 @@ include 'header.php';
 				
 					<table class="table table-bordered">
 						<tr>
-							<td>Name</td>
+							<td>Nama</td>
 							<td><?php echo $_SESSION['admin_name'];?></td>
 						</tr>
 						<tr>
-							<td>Username</td>
+							<td>Nama Pengguna</td>
 							<td><?php echo $_SESSION['admin_username'];?></td>
 						</tr>
 						<tr>
-							<td>User type</td>
+							<td>Jenis Pengguna</td>
 							<td><?php echo ($_SESSION['admin_type'] == 1) ? 'Administrator' : 'Staff';?></td>
 						</tr>
 					</table>
