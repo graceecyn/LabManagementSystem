@@ -209,9 +209,9 @@
 								<table class="table table_inventory_all">
 									<thead>
 										<tr>
-											<th>Category</th>
-											<th>New</th>
-											<th>(Old / Damage / Lost / Borrowed / Transferred)</th>
+											<th>Kategori</th>
+											<th>Baru</th>
+											<th>(Lama / Rusak / Hilang / Dipinjam / Dikirim)</th>
 											<th>Total</th>
 										</tr>
 									</thead>
@@ -259,13 +259,13 @@
 											<thead>
 												<tr>
 													<th>Model</th>
-													<th>Category</th>
-													<th>Brand</th>
-													<th>No. of items</th>
-													<th>Room</th>
-													<th>Person-in-charge</th>
-													<th>User</th>
-													<th>Date Transferred</th>
+													<th>Kategori</th>
+													<th>Merek</th>
+													<th>Jumlah Barang</th>
+													<th>Ruang</th>
+													<th>Penanggung Jawab</th>
+													<th>Pengguna</th>
+													<th>Tanggal Ditransfer</th>
 												</tr>
 											</thead>
 										</table>
@@ -313,10 +313,10 @@
 										<table class="table tbl_return">
 											<thead>										
 												<tr>										 
-													<th>Borrower</th>
-													<th>Items</th>
-													<th>Borrowed Date</th>
-													<th>Returned Date</th>
+													<th>Peminjam</th>
+													<th>Barang</th>
+													<th>Tanggal Pinjam</th>
+													<th>Tanggal Pengembalian</th>
 													
 												</tr>
 											</thead>
