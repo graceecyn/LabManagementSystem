@@ -88,7 +88,7 @@
 					<svg class="glyph stroked clipboard with paper">
 						<use xlink:href="#stroked-clipboard-with-paper"/>
 					</svg>
-					Inventaris
+					Penyimpanan
 				</a>
 			</li>
 			<li>
@@ -161,7 +161,7 @@
 											<th>Kategori</th>
 											<th>Merek</th>
 											<th>Deskripsi</th>
-											<th>Kuantitas Tersisa</th>
+											<th>Jumlah Tersisa</th>
 										</tr>
 									</thead>
 								</table>
@@ -173,8 +173,8 @@
 											<th>Model</th>
 											<th>Kategori</th>
 											<th>Merek</th>
-											<th>Kuantitas</th>
-											<th>Kuantitas Tersisa</th>
+											<th>Jumlah</th>
+											<th>Jumlah Tersisa</th>
 										</tr>
 									</thead>
 								</table>
