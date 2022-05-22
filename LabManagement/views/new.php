@@ -14,7 +14,7 @@ include 'header.php';
 				<svg class="glyph stroked dashboard-dial">
 					<use xlink:href="#stroked-dashboard-dial"></use>
 				</svg>
-				Dashboard
+				Dasbor
 			</a>
 		</li>
 		<li class="parent active">
@@ -27,7 +27,7 @@ include 'header.php';
 						<svg class="glyph stroked eye">
 							<use xlink:href="#stroked-eye"/>
 						</svg>
-						Reservations
+						Reservasi
 					</a>
 				</li>
 				<li class="active">
@@ -35,7 +35,7 @@ include 'header.php';
 						<svg class="glyph stroked plus sign">
 							<use xlink:href="#stroked-plus-sign"/>
 						</svg>
-						New
+						Baru
 					</a>
 				</li>
 				<li>
@@ -43,7 +43,7 @@ include 'header.php';
 						<svg class="glyph stroked download">
 							<use xlink:href="#stroked-download"/>
 						</svg>
-						Borrowed Items
+						Barang Yang Dipinjam
 					</a>
 				</li>
 				<li>
@@ -51,7 +51,7 @@ include 'header.php';
 						<svg class="glyph stroked checkmark">
 							<use xlink:href="#stroked-checkmark"/>
 						</svg>
-						Returned Items
+						Barang Yang Dikembalikan
 					</a>
 				</li>
 			</ul>
@@ -62,7 +62,7 @@ include 'header.php';
 				<svg class="glyph stroked desktop">
 					<use xlink:href="#stroked-desktop"/>
 				</svg>
-				Item
+				Barang
 			</a>
 		</li>
 		<li>
@@ -70,7 +70,7 @@ include 'header.php';
 				<svg class="glyph stroked male user ">
 					<use xlink:href="#stroked-male-user"/>
 				</svg>
-				Borrower
+				Peminjam
 			</a>
 		</li>
 		<li>
@@ -78,7 +78,7 @@ include 'header.php';
 				<svg class="glyph stroked app-window">
 					<use xlink:href="#stroked-app-window"></use>
 				</svg>
-				Room
+				Ruang
 			</a>
 		</li>
 		<li>
@@ -86,7 +86,7 @@ include 'header.php';
 				<svg class="glyph stroked clipboard with paper">
 					<use xlink:href="#stroked-clipboard-with-paper"/>
 				</svg>
-				Inventory
+				Penyimpanan
 			</a>
 		</li>
 		<li>
@@ -94,7 +94,7 @@ include 'header.php';
 				<svg class="glyph stroked line-graph">
 					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#stroked-line-graph"/>
 				</svg>
-				Graph
+				Grafis
 			</a>
 		</li>
 		<li>
@@ -102,7 +102,7 @@ include 'header.php';
 				<svg class="glyph stroked female user">
 					<use xlink:href="#stroked-female-user"/>
 				</svg>
-				User
+				Pengguna
 			</a>
 		</li>
 		<?php 
@@ -117,7 +117,7 @@ include 'header.php';
 	<div class="row">
 		<ol class="breadcrumb">
 			<li><a href="dashboard"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
-			<li class="active">Borrow</li>
+			<li class="active">Pinjam</li>
 		</ol>
 				
 			<div class="row">
@@ -128,7 +128,7 @@ include 'header.php';
 					<div class="panel panel-primary custom-panel">
 						<div class="panel-heading">
 							<i class="fa fa-plus-circle"></i>
-							Borrow Item/s
+							Pinjam Barang
 						</div>
 						<div class="panel-body">
 							<form class="frm_borrow">
@@ -139,24 +139,24 @@ include 'header.php';
 									</select>
 								</div>
 								<div class="form-group">
-									<label class="">Select Items (maximum of 5 items)</label>
+									<label class="">Pilih Barang (maksimal 5 barang)</label>
 									<select class="form-control input-lg borrowitem" name="borrowitem[]" multiple="multiple" required="required">
 										<option></option>
 									</select>
 									<input type="hidden" name="user_id" value="<?php echo $_SESSION['admin_id']; ?>">
 								</div>
 								<div class="form-group">
-									<label>Select Room</label>
+									<label>Pilih Ruang</label>
 									<select class="form-control" name="reserve_room" required></select>
 								</div>
 								<div class="form-group">
-									<label class="">Time Limit</label>
+									<label class=">Batas Waktu</label>
 									<input name="expected_time_of_return" id="timeLimit" type="text" class="form-control" value="<?php echo date('Y-m-d h:i A'); ?>" />
 								</div>
 								<div class="form-group">
 									<div class="pull-right">
 										<button class="btn btn-primary" type="submit">
-											Confirm Borrow
+											Konfirmasi Peminjaman
 											<i class="fa fa-chevron-right"></i>
 										</button>
 									</div>
