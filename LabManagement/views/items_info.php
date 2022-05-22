@@ -13,7 +13,7 @@
 					<svg class="glyph stroked dashboard-dial">
 						<use xlink:href="#stroked-dashboard-dial"></use>
 					</svg>
-					Dashboard
+					Dasbor
 				</a>
 			</li>
 			<li class="parent ">
@@ -120,8 +120,8 @@
 		<div class="row">
 			<ol class="breadcrumb">
 				<li><a href="dashboard"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
-				<li class=""><a href="items">Items</a></li>
-				<li class="active">Items Information</li>
+				<li class=""><a href="items">Barang</a></li>
+				<li class="active">Informasi Barang</li>
 			</ol>
 			<div class="breadcrumb">
 				<button class="btn btn-primary item-add" type="button">
