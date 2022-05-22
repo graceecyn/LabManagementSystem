@@ -142,8 +142,8 @@
 									<th>Kategori</th>
 									<th>Merek</th>
 									<th>Deskripsi</th>
-									<th>Kuantitas</th>
-									<th>Kuantitas tersisa</th>
+									<th>Jumlah</th>
+									<th>Jumlah tersisa</th>
 									<th>Status</th>
 									<th>Aksi</th>
 								</tr>
@@ -176,7 +176,7 @@
 					<input type="text" name="e_model" class="form-control" required>
 				</div>
 				<div class="form-group">
-					<label>Category</label>
+					<label>Kategori</label>
 					<select name="e_category" class="form-control" required>
 						<option selected disabled>Silakan pilih kategori</option>
 						<option>Mouse</option>
@@ -205,11 +205,11 @@
 					<textarea name="e_description" class="form-control" required></textarea>
 				</div>
 				<div class="form-group">
-					<label>Kuantitas</label>
+					<label>Jumlah</label>
 					<input type="number" name="e_stock" class="form-control" min="1" required>
 				</div>
 				<div class="form-group hide">
-					<label>Ruang Penugasan</label>
+					<label>Ruang Yang Ditentukan</label>
 					<select name="e_assigned" class="form-control" required>
 					</select>
 				</div>
